@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HelpMob</title>
+
+<script>
+var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+if (/android/i.test(ua)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=br.com.helpmobilidade.passenger";
+} else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+    window.location.href = "https://apps.apple.com/br/app/helpmob/id6767224732";
+} else {
+    window.location.href = "https://www.helpmobapp.com.br";
+}
+</script>
+
+</head>
+<body>
+<h2>Redirecionando...</h2>
+<p>Se você não for redirecionado automaticamente, escolha uma opção:</p>
+
+<p><a href="https://play.google.com/store/apps/details?id=br.com.helpmobilidade.passenger">📱 Android</a></p>
+
+<p><a href="https://apps.apple.com/br/app/helpmob/id6767224732">🍎 iPhone</a></p>
+
+</body>
+</html>
